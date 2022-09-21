@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'RSS Mailer',
+  tagline: 'The Easy Way to Send RSS Feeds to Email.',
+  url: 'https://rss-mailer-doc.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,6 +39,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        gtag: {
+          trackingID: 'G-28892TYJF2',
+        },
       }),
     ],
   ],
@@ -56,7 +59,7 @@ const config = {
             label: 'Intro',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/WayneGongCN/rss-mailer',
             label: 'GitHub',
             position: 'right',
           },
@@ -65,7 +68,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Wayne Gong.`,
       },
       prism: {
         theme: lightCodeTheme,
