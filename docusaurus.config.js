@@ -40,7 +40,7 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
         gtag: {
-          trackingID: 'G-28892TYJF2',
+          trackingID: 'GTM-NSQM5ZT',
         },
       }),
     ],
